@@ -114,17 +114,19 @@ export default function Navbar() {
 
             {/* Mobile Menu Overlay */}
             {isOpen && (
-                <div className="md:hidden fixed top-16 left-0 right-0 bg-gray-900/90 dark:bg-white/90 backdrop-blur-md border-b border-gray-700 dark:border-gray-200 z-40">
+                <div className="md:hidden fixed top-16 left-0 right-0 backdrop-blur-md border-b z-40
+                bg-gray-900/90 dark:bg-gray-900/90
+                dark:border-gray-700">
                     <div className="flex flex-col items-center py-4 gap-4">
                         {navLinks.map((link) => (
-                           <Button asChild variant="ghost"  key={link.name} className='w-full text-center'>
+                           <Button asChild variant="ghost"  key={link.name} className='w-full text-center text-white'>
                                 <Link href={link.path} onClick={() => setIsOpen(false)}>  {/* Close menu on click */}
                                      {link.name}
                                 </Link>
                            </Button>
                         ))}
                         {/* Dedicated Contact Button (Mobile) */}
-                        <Button variant="ghost" className='w-full text-center' onClick={scrollToContact}>
+                        <Button variant="ghost" className='w-full text-center text-white' onClick={scrollToContact}>
                             Contact
                         </Button>
                     </div>
