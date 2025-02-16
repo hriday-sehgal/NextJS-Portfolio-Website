@@ -10,6 +10,18 @@ import { useState,useEffect } from 'react';
 import Image from 'next/image';
 
 
+// Define a type for your blog objects
+interface Blog {
+  id: number;
+  title: string;
+  date: string;
+  author: string;
+  description: string;
+  tags: string[];
+  content: string;
+  imageUrl: string;
+}
+
 export default function AboutPage() {
 
 
@@ -34,7 +46,7 @@ const education = [
     }
   ];
 
-  const allBlogs = [
+  const allBlogs: Blog[] = [ // Use the Blog type here
     {
     id: 1,
     title: 'Building Scalable Applications',
@@ -58,7 +70,7 @@ const education = [
     
     ];
 
-    const [latestBlogs, setLatestBlogs] = useState<unknown>([]);
+    const [latestBlogs, setLatestBlogs] = useState<Blog[]>([]); // Specify Blog[] type
 
     useEffect(() => {
     
@@ -281,7 +293,7 @@ const education = [
     >
       <h2 className="text-3xl font-bold mb-8 text-center">Latest Blogs</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {latestBlogs.map((blog) => (
+        {latestBlogs.map((blog: Blog) => (
 
            <Card key={blog.id} className="h-full flex flex-col">
            <Link href="#">
@@ -305,7 +317,7 @@ const education = [
             </CardContent>
             <CardFooter>
               <div className="flex flex-wrap gap-2">
-                {blog.tags.map((tag) => (
+                {blog.tags.map((tag: string) => (
                   <span
                     key={tag}
                     className="px-3 py-1 text-sm rounded-full bg-primary/10 text-primary"
