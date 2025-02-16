@@ -186,7 +186,7 @@ function getBlog(id: string) {
 }
 
 
-function getRelatedBlogs(currentBlogId: number, allBlogs: any[]) {
+function getRelatedBlogs(currentBlogId: number, allBlogs: unknown[]) {
     const currentBlog = allBlogs.find((blog) => blog.id === currentBlogId);
 
     if (!currentBlog) {
