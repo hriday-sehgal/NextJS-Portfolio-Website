@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { FiArrowRight, FiBook, FiBriefcase, FiAward, FiMusic } from 'react-icons/fi';
+import { FiBook, FiBriefcase, FiAward, FiMusic } from 'react-icons/fi';
 import Link from 'next/link';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import ContactForm from '@/components/ui/contact-form';
@@ -58,7 +58,7 @@ const education = [
     
     ];
 
-    const [latestBlogs, setLatestBlogs] = useState<any>([]);
+    const [latestBlogs, setLatestBlogs] = useState<unknown>([]);
 
     useEffect(() => {
     

@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import Image from 'next/image';
-import Link from 'next/link';
 import ContactForm from '@/components/ui/contact-form';
 
 export default function ProjectsPage() {
@@ -16,7 +15,7 @@ export default function ProjectsPage() {
             tech: 'React, Node.js (Express), MongoDB, Socket.IO, Redux, Tailwind CSS',
             links: {
                 github: 'https://github.com/hriday-sehgal/bidbot-auction', // Replace with your actual GitHub link
-                live: 'https://bidbot-auction.example.com' // Replace with your actual live link
+                live: 'https://bidbotauctionsystem.onrender.com/' // Replace with your actual live link
             },
             image: '/bidbot.png' // Add image paths.  Make sure these files exist in your /public directory.
         },

@@ -5,18 +5,16 @@ import { TypeAnimation } from 'react-type-animation';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
-import { SiReact, SiPython, SiJira, SiFigma, SiMongodb, SiNodedotjs, SiJavascript, SiHtml5, SiCss3, SiExpress, SiNextdotjs, SiGoogleanalytics, SiPostman, SiGit, SiGithub } from 'react-icons/si';
-import { FiDownload, FiGithub, FiExternalLink, FiArrowRight, FiBriefcase, FiArrowLeft } from 'react-icons/fi';
-import { FaBrain, FaProjectDiagram, FaUsers } from 'react-icons/fa'; // Leadership, Project Mgmt, Communication
+import { SiReact, SiPython, SiJira, SiMongodb, SiNodedotjs, SiJavascript, SiHtml5, SiCss3, SiExpress, SiNextdotjs, SiGoogleanalytics, SiPostman, SiGit, SiGithub } from 'react-icons/si';
+import { FiDownload, FiGithub, FiExternalLink, FiArrowRight, FiBriefcase } from 'react-icons/fi';
+import { FaBrain, FaProjectDiagram} from 'react-icons/fa'; // Leadership, Project Mgmt, Communication
 import { BsGraphUp, BsClipboardData } from 'react-icons/bs';       // Strategy, Product Management
 import { MdOutlineEventAvailable } from 'react-icons/md'               //Event Management
 import { BiUserCheck } from 'react-icons/bi'                    //Stakeholder Management
-import { TbBrandFigma, TbBrandGoogleAnalytics, TbBrandSlack } from 'react-icons/tb';
+import { TbBrandFigma, TbBrandSlack } from 'react-icons/tb';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import NewsletterSignup from '@/components/ui/NewsletterSignup';
-import { useRouter } from 'next/navigation';
 import ContactForm from '@/components/ui/contact-form';
 
 const experiences = [
@@ -76,8 +74,8 @@ imageUrl: '/placeholder-image.jpg',
 
 export default function Home() {
 
-const [latestBlogs, setLatestBlogs] = useState<any>([]);
-const router = useRouter(); //
+const [latestBlogs, setLatestBlogs] = useState<unknown>([]);
+
 
 const skills = {
 technical: [
@@ -468,7 +466,7 @@ style={{ objectFit: "cover" }} // Important for responsiveness
                 margin: '0 auto' // Center horizontally
             }}
           >
-            <p className="text-gray-600 italic text-base md:text-lg">"{testimonials[currentIndex].text}"</p> {/* Adjust text size */}
+            <p className="text-gray-600 italic text-base md:text-lg">&quot;{testimonials[currentIndex].text}&quot;</p> {/* Adjust text size */}
             <h3 className="text-black text-lg font-semibold mt-4">{testimonials[currentIndex].name}</h3>
             <p className="text-gray-500 text-sm">{testimonials[currentIndex].role}</p>
           </motion.div>

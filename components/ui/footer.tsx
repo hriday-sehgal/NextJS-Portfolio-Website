@@ -4,11 +4,10 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { FiGithub, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
-import { usePathname } from 'next/navigation';
 import { useTheme } from 'next-themes';
 
 export default function Footer() {
-    const pathname = usePathname(); // Get the current pathname
+    
     const { theme } = useTheme();
 
     const scrollToContact = () => {
