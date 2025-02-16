@@ -284,7 +284,7 @@ const education = [
         {latestBlogs.map((blog) => (
 
            <Card key={blog.id} className="h-full flex flex-col">
-           <Link href={`/blogs/${blog.id}`}>
+           <Link href="#">
             <CardHeader>
               <CardTitle>{blog.title}</CardTitle>
               <CardDescription>
