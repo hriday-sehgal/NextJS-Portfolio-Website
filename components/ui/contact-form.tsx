@@ -17,7 +17,7 @@ export default function ContactForm() {
   const [showForm, setShowForm] = useState(true);
   const { theme } = useTheme();
 
-  const onSubmit = async (data: any) => {
+  const onSubmit = async (data: unknown) => {
       setIsSubmitting(true);
       try {
           const response = await fetch('/api/contact', {

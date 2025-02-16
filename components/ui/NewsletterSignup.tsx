@@ -53,7 +53,7 @@ function NewsletterSignup() {
             }
 
 
-        } catch (error: any) {
+        } catch (error: unknown) {
             console.error("Subscription error:", error);
             toast.error(error.message || "An error occurred.  Please try again.");
         } finally {

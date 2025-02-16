@@ -7,12 +7,11 @@ import { Button } from '@/components/ui/button';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
-import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
-    const pathname = usePathname(); // Get the current pathname, although it is not USED
+    
 
     useEffect(() => {
         setMounted(true);
