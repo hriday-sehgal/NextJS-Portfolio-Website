@@ -79,8 +79,13 @@ export default function ContactForm() {
                   disabled={isSubmitting}
                 />
               </div>
-              {errors.name && <p className="text-red-500">{errors.name.message}</p>}
-              {errors.email && <p className="text-red-500">{errors.email.message}</p>}
+              {errors.name?.message && typeof errors.name.message === 'string' && (
+  <p className="text-red-500">{errors.name.message}</p>
+)}
+
+{errors.email?.message && typeof errors.email.message === 'string' && (
+  <p className="text-red-500">{errors.email.message}</p>
+)}
               <Textarea
                 placeholder="Message"
                 rows={5}
@@ -88,7 +93,9 @@ export default function ContactForm() {
                 className={`bg-background ${theme === 'dark' ? 'text-white' : ''}`}
                 disabled={isSubmitting}
               />
-              {errors.message && <p className="text-red-500">{errors.message.message}</p>}
+             {errors.message?.message && typeof errors.message.message === 'string' && (
+  <p className="text-red-500">{errors.message.message}</p>
+)}
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button type="submit" className="w-full" disabled={isSubmitting}>
                   {isSubmitting ? 'Sending...' : 'Send Message'}
