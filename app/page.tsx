@@ -159,7 +159,7 @@ export default function Home() {
             tech: 'React.js, Javascript, CSS',
             links: {
                 github: 'https://github.com/hriday-sehgal/word-counter',
-                live: 'https://word-counter-app-reactjs.netlify.app/'
+                live: 'https://hriday-sehgal.github.io/Word-Counter-ReactJs-App/'
             }
 
         },
