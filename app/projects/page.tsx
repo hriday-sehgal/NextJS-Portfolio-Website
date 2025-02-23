@@ -24,8 +24,8 @@ export default function ProjectsPage() {
             description: 'A patient monitoring system with real-time data visualization and analytics.  It allows healthcare professionals to track patient vitals, view historical data, and receive alerts for critical conditions.  Built with responsiveness in mind for use on various devices.',
             tech: 'React, Python (Flask), AWS (DynamoDB, Lambda, API Gateway), Chart.js, Material-UI',
             links: {
-                github: 'https://github.com/hriday-sehgal/healthtech-dashboard',
-                live: 'https://healthtech.example.com'
+                github: 'https://github.com/hriday-sehgal',
+                live: '#'
             },
             image: '/healthtech.png'
         },
@@ -34,8 +34,8 @@ export default function ProjectsPage() {
             description: 'A complete online shopping solution with product browsing, shopping cart, user accounts, order management, and payment integration. Includes features like product search, filtering, reviews, and admin panel for managing products and orders.',
             tech: 'Next.js, Stripe, Firebase (Firestore, Authentication, Storage), Tailwind CSS, Redux Toolkit',
             links: {
-                github: 'https://github.com/hriday-sehgal/ecommerce-platform',
-                live: 'https://ecommerce.example.com'
+                github: 'https://github.com/hriday-sehgal',
+                live: '#'
             },
             image: '/ecommerce.png'
         },
@@ -44,8 +44,8 @@ export default function ProjectsPage() {
             description: 'A chatbot built using a Retrieval-Augmented Generation (RAG) architecture, leveraging MongoDB Atlas for vector search and Google Gemma for language modeling.  It can answer questions based on a provided knowledge base, making it suitable for customer service or information retrieval tasks.',
             tech: 'Python (FastAPI), MongoDB Atlas, Google Gemma, LangChain, Streamlit',
             links: {
-                github: 'https://github.com/hriday-sehgal/rag-chatbot',
-                live: 'https://chatbot.example.com' //  A live demo might be more complex here, consider skipping or linking to a demo video.
+                github: 'https://github.com/hriday-sehgal/RAG-Chatbot',
+                live: '#' //  A live demo might be more complex here, consider skipping or linking to a demo video.
             },
             image: '/chatbot.png'
         },
@@ -54,8 +54,8 @@ export default function ProjectsPage() {
             description: "This very website!  A showcase of my skills, projects, and experience.  Built with Next.js for static site generation and optimized for performance and SEO.  Uses Tailwind CSS for styling and Framer Motion for animations.  Includes a contact form and links to my social media profiles.",
             tech: 'Next.js, Tailwind CSS, Framer Motion, Shadcn/UI, Vercel',
             links: {
-                github: 'https://github.com/hriday-sehgal/portfolio', // Replace with your portfolio's GitHub link
-                live: 'https://your-portfolio-url.com' // Replace with your portfolio's URL
+                github: 'https://github.com/hriday-sehgal/NextJS-Portfolio-Website', // Replace with your portfolio's GitHub link
+                live: 'https://hridayportfolio.vercel.app/' // Replace with your portfolio's URL
             },
             image: '/portfolio.png'
         },
@@ -64,8 +64,8 @@ export default function ProjectsPage() {
             description: 'A full-stack task management application where users can create, organize, and track their tasks.  Includes features like task prioritization, due dates, categorization, and user authentication.',
             tech: 'React, Node.js (Express), MongoDB, JWT, Bootstrap',
             links: {
-                github: 'https://github.com/hriday-sehgal/task-manager',
-                live: 'https://task-manager.example.com'
+                github: 'https://github.com/hriday-sehgal',
+                live: '#'
             },
             image: '/task-manager.png'
         }
