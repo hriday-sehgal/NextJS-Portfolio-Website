@@ -294,60 +294,60 @@ const education = [
         </div>
       </section>
 
-      {/* Blogs Section */}
-  <section id="blogs" className="py-16 px-4 md:px-8 lg:px-16">
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-    >
-      <h2 className="text-3xl font-bold mb-8 text-center">Latest Blogs</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {latestBlogs.map((blog: Blog) => (
+       {/* Blogs Section */}
+            <section id="blogs" className="py-16 px-4 md:px-8 lg:px-16">                <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+            >
+                <h2 className="text-3xl font-bold mb-8 text-center">Latest Blogs</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {latestBlogs.map((blog: Blog) => ( // Use the Blog type here
 
-           <Card key={blog.id} className="h-full flex flex-col">
-           <Link href="#">
-            <CardHeader>
-              <CardTitle>{blog.title}</CardTitle>
-              <CardDescription>
-                {blog.date} • {blog.author}
-              </CardDescription>
-            </CardHeader>
-             <CardContent className="flex-grow">
-             <div className="relative w-full h-48 mb-4">
-                    <Image
-                        src={blog.imageUrl}
-                        alt={blog.title}
-                        fill
-                        style={{ objectFit: 'cover', borderRadius: '0.5rem' }}
-                        className="rounded-md"
-                    />
+                        <Card key={blog.id} className="h-full flex flex-col">
+                            <Link href="https://decodewithhriday.vercel.app/blogs" target="_blank" rel="noopener noreferrer">
+                                <CardHeader>
+                                    <CardTitle>{blog.title}</CardTitle>
+                                    <CardDescription>
+                                        {blog.date} • {blog.author}
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="flex-grow">
+                                    <div className="relative w-full h-48 mb-4">
+                                        <Image
+                                            src={blog.imageUrl}
+                                            alt={blog.title}
+                                            fill
+                                            style={{ objectFit: 'cover', borderRadius: '0.5rem' }}
+                                            className="rounded-md"
+                                        />
+                                    </div>
+                                    <p>{blog.description}</p>
+                                </CardContent>
+                                <CardFooter>
+                                    <div className="flex flex-wrap gap-2">
+                                        {blog.tags.map((tag: string) => ( // Explicitly type tag
+                                            <span
+                                                key={tag}
+                                                className="px-3 py-1 text-sm rounded-full bg-primary/10 text-primary"
+                                            >
+                                                #{tag}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </CardFooter>
+                            </Link>
+                        </Card>
+                    ))}
                 </div>
-                <p>{blog.description}</p>
-            </CardContent>
-            <CardFooter>
-              <div className="flex flex-wrap gap-2">
-                {blog.tags.map((tag: string) => (
-                  <span
-                    key={tag}
-                    className="px-3 py-1 text-sm rounded-full bg-primary/10 text-primary"
-                  >
-                    #{tag}
-                  </span>
-                ))}
-              </div>
-            </CardFooter>
-             </Link>
-          </Card>
-        ))}
-      </div>
-      <div className="text-center mt-8">
-        <Link href="/blogs">
-        <Button>View All Blogs</Button> 
-        </Link>      
-        </div>
-    </motion.div>
-  </section>
+                <div className="text-center mt-8">
+                   <Link href="https://decodewithhriday.vercel.app/" target="_blank" rel="noopener noreferrer">
+                       <Button>View All Blogs</Button>
+                   </Link>
+                   </div>
+            </motion.div>
+
+            </section>
 
      <NewsletterSignup />
        <div id="contact" className="py-16">
