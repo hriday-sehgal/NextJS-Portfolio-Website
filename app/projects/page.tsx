@@ -12,42 +12,33 @@ export default function ProjectsPage() {
         {
             title: 'BidBot Auction Platform',
             description: 'A full-stack auction platform featuring real-time bidding, user authentication, and secure payment processing.  Users can list items, place bids, and manage their profiles.  The platform includes an admin dashboard for managing auctions and users.',
-            tech: 'React, Node.js (Express), MongoDB, Socket.IO, Redux, Tailwind CSS',
+            tech: 'React, Node.js (Express), MongoDB, Bootstrap CSS',
             links: {
-                github: 'https://github.com/hriday-sehgal/bidbot-auction', // Replace with your actual GitHub link
+                github: 'https://github.com/hriday-sehgal/BidBot-Online-Auction-System-Project-Frontend', // Replace with your actual GitHub link
                 live: 'https://bidbotauctionsystem.onrender.com/' // Replace with your actual live link
             },
-            image: '/bidbot.png' // Add image paths.  Make sure these files exist in your /public directory.
+            image: '/Bidbot.png' // Add image paths.  Make sure these files exist in your /public directory.
         },
         {
-            title: 'HealthTech Dashboard',
-            description: 'A patient monitoring system with real-time data visualization and analytics.  It allows healthcare professionals to track patient vitals, view historical data, and receive alerts for critical conditions.  Built with responsiveness in mind for use on various devices.',
-            tech: 'React, Python (Flask), AWS (DynamoDB, Lambda, API Gateway), Chart.js, Material-UI',
+            title: 'Next.js Blog Website',
+            description: 'Decode with Hriday is a Next.js blog Website featuring premium content, Supabase Auth, Sanity CMS, and Razorpay payments, delivering insightful articles on technology, product management, and healthcare with a seamless, secure, and responsive experience.',
+            tech: 'Next.js, Supabase (Auth & PostgreSQL), Sanity CMS, Razorpay, Vercel, Tailwind CSS',
             links: {
-                github: 'https://github.com/hriday-sehgal',
-                live: '#'
+                github: 'https://github.com/hriday-sehgal/decodewithhriday-blog',
+                live: 'https://decodewithhriday.vercel.app/'
             },
-            image: '/healthtech.png'
+            image: '/Blogwebsite.png'
         },
+      
         {
-            title: 'E-commerce Platform',
-            description: 'A complete online shopping solution with product browsing, shopping cart, user accounts, order management, and payment integration. Includes features like product search, filtering, reviews, and admin panel for managing products and orders.',
-            tech: 'Next.js, Stripe, Firebase (Firestore, Authentication, Storage), Tailwind CSS, Redux Toolkit',
-            links: {
-                github: 'https://github.com/hriday-sehgal',
-                live: '#'
-            },
-            image: '/ecommerce.png'
-        },
-        {
-            title: 'AI-Powered Chatbot',
+            title: 'AI-Powered RAG Chatbot',
             description: 'A chatbot built using a Retrieval-Augmented Generation (RAG) architecture, leveraging MongoDB Atlas for vector search and Google Gemma for language modeling.  It can answer questions based on a provided knowledge base, making it suitable for customer service or information retrieval tasks.',
-            tech: 'Python (FastAPI), MongoDB Atlas, Google Gemma, LangChain, Streamlit',
+            tech: 'Python (FastAPI), MongoDB Atlas, Google Gemma Model',
             links: {
                 github: 'https://github.com/hriday-sehgal/RAG-Chatbot',
-                live: '#' //  A live demo might be more complex here, consider skipping or linking to a demo video.
+                
             },
-            image: '/chatbot.png'
+            image: '/ragchatbot.png'
         },
         {
             title: 'Personal Portfolio Website',
@@ -55,20 +46,10 @@ export default function ProjectsPage() {
             tech: 'Next.js, Tailwind CSS, Framer Motion, Shadcn/UI, Vercel',
             links: {
                 github: 'https://github.com/hriday-sehgal/NextJS-Portfolio-Website', // Replace with your portfolio's GitHub link
-                live: 'https://hridayportfolio.vercel.app/' // Replace with your portfolio's URL
+                live: 'https://hridaysehgal.vercel.app/' // Replace with your portfolio's URL
             },
-            image: '/portfolio.png'
+            image: '/Portfolio.png'
         },
-        {
-            title: 'Task Manager Application',
-            description: 'A full-stack task management application where users can create, organize, and track their tasks.  Includes features like task prioritization, due dates, categorization, and user authentication.',
-            tech: 'React, Node.js (Express), MongoDB, JWT, Bootstrap',
-            links: {
-                github: 'https://github.com/hriday-sehgal',
-                live: '#'
-            },
-            image: '/task-manager.png'
-        }
     ];
 
     return (
