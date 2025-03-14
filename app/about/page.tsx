@@ -341,7 +341,7 @@ const education = [
                     ))}
                 </div>
                 <div className="text-center mt-8">
-                   <Link href="https://decodewithhriday.vercel.app/" target="_blank" rel="noopener noreferrer">
+                   <Link href="https://decodewithhriday.vercel.app/blogs" target="_blank" rel="noopener noreferrer">
                        <Button>View All Blogs</Button>
                    </Link>
                    </div>
