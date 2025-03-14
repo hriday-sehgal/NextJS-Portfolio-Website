@@ -150,7 +150,7 @@ export default function Home() {
             tech: 'AngularJS, Python, Fast API, MongoDB',
             links: {
                 github: 'https://github.com/hriday-sehgal/RAG-Chatbot',
-                live: '#'
+                
             }
         },
         {
