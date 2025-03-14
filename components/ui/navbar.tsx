@@ -20,7 +20,7 @@ export default function Navbar() {
     const navLinks = [
         { name: 'About', path: '/about' },
         { name: 'Projects', path: '/projects' },
-        { name: 'Blogs', path: '/blogs' },
+        { name: 'Blogs', path: 'https://decodewithhriday.vercel.app/blogs' },
     ];
 
     const scrollToContact = () => {
