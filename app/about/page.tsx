@@ -11,15 +11,16 @@ import Image from 'next/image';
 
 
 // Define a type for your blog objects
-interface Blog {
-  id: number;
-  title: string;
-  date: string;
-  author: string;
-  description: string;
-  tags: string[];
-  content: string;
-  imageUrl: string;
+// Mock Blog Data
+interface Blog {  // Define the Blog interface
+    id: number;
+    title: string;
+    date: string;
+    author: string;
+    description: string;
+    tags: string[];
+    content: string;
+    imageUrl: string;
 }
 
 export default function AboutPage() {
