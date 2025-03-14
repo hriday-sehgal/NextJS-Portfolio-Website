@@ -40,7 +40,7 @@ This portfolio website serves as my digital identity, highlighting my skills, ex
 
 **Live Demo:**
 
-[Visit My Portfolio](https://hridaysehgal.vercel.app/) (Replace # with your actual live URL)
+[Visit My Portfolio](https://hridaysehgal.vercel.app/) 
 
 **License & Copyright:**
 
@@ -55,4 +55,5 @@ No part of this code may be copied, modified, distributed, or used without expli
 Have a project in mind or want to connect? Reach out to me!
 
 📧 Email: hriday.career@gmail.com
+
 🔗 LinkedIn: linkedin.com/in/hridaysehgal
