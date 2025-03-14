@@ -56,4 +56,4 @@ Have a project in mind or want to connect? Reach out to me!
 
 📧 Email: hriday.career@gmail.com
 
-🔗 LinkedIn: linkedin.com/in/hridaysehgal
+🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/hridaysehgal/)
