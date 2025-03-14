@@ -67,7 +67,7 @@ const allBlogs: Blog[] = [ // Use the Blog interface
         author: 'Hriday Sehgal',
         description: 'AI tools like ChatGPT, DeepSeek, and V0 by Vercel are revolutionizing coding, but will they replace software engineers?',
         tags: ['Technology', 'Software Development'],
-        content: '', imageUrl: '/placeholder-image.jpg',
+        content: '', imageUrl: '/ai.jpg',
     },
     {
         id: 2,
@@ -77,7 +77,7 @@ const allBlogs: Blog[] = [ // Use the Blog interface
         description: 'A beginner friendly introduction to the world of product management.',
         tags: ['Product Management', 'Beginner'],
         content: '',
-        imageUrl: '/placeholder-image.jpg',
+        imageUrl: '/Intro to PM-min.jpg',
     },
     {
         id: 3,
@@ -87,7 +87,7 @@ const allBlogs: Blog[] = [ // Use the Blog interface
         description: 'Project management tools streamline collaboration, planning, and execution across various industries. Here are the top 10 tools every project manager should know.',
         tags: ['Management', 'Guide'],
         content: ``,
-        imageUrl: '/placeholder-image.jpg',
+        imageUrl: '/projectmanager_text_1-min.jpg',
     },
 
 ];
