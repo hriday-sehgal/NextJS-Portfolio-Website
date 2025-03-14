@@ -6,7 +6,7 @@ A personal portfolio showcasing my skills in Software Development and Product Ma
 
 This portfolio website serves as my digital identity, highlighting my skills, experience, projects, and blogs. It is designed to provide a seamless user experience with a clean UI, dark mode support, and optimized performance.
 
-**Features**
+**Features - **
 
 ✅ Dynamic Personal Introduction – Showcasing my role as a Software Developer, Technical Project Manager and a Product Manager.
 
