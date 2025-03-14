@@ -47,29 +47,38 @@ const education = [
     }
   ];
 
-  const allBlogs: Blog[] = [ // Use the Blog type here
+ const allBlogs: Blog[] = [ // Use the Blog interface
     {
-    id: 1,
-    title: 'Building Scalable Applications',
-    date: '2024-03-15',
-    author: 'Hriday Sehgal',
-    description: 'Learn the principles of building applications that can handle increasing workloads.',
-    tags: ['Technology', 'Architecture'],
-    content: '',        imageUrl: '/placeholder-image.jpg',     },     {       id: 2,       title: 'Product Management 101',       date: '2024-02-20',       author: 'Hriday Sehgal',       description: 'A beginner friendly introduction to the world of product management.',       tags: ['Product Management', 'Beginner'],       content: '',
-    imageUrl: '/placeholder-image.jpg',
+        id: 1,
+        title: 'Will AI Replace Software Engineers? The Future of Coding with AI',
+        date: '2024-03-15',
+        author: 'Hriday Sehgal',
+        description: 'AI tools like ChatGPT, DeepSeek, and V0 by Vercel are revolutionizing coding, but will they replace software engineers?',
+        tags: ['Technology', 'Software Development'],
+        content: '', imageUrl: '/ai.jpg',
     },
     {
-    id: 3,
-    title: 'Cloud Computing Fundamentals',
-    date: '2024-01-10',
-    author: 'Hriday Sehgal',
-    description: 'Explore the concepts of cloud and important best practices.',
-    tags: ['Management', 'Guide'],
-    content: ``,
-    imageUrl: '/placeholder-image.jpg',
+        id: 2,
+        title: 'Product Management 101: A Beginner’s Guide to Understanding PM',
+        date: '2024-02-20',
+        author: 'Hriday Sehgal',
+        description: 'A beginner friendly introduction to the world of product management.',
+        tags: ['Product Management', 'Beginner'],
+        content: '',
+        imageUrl: '/Intro to PM-min.jpg',
     },
-    
-    ];
+    {
+        id: 3,
+        title: 'Top 10 Project Management Tools Every PM Should Know',
+        date: '2024-01-10',
+        author: 'Hriday Sehgal',
+        description: 'Project management tools streamline collaboration, planning, and execution across various industries. Here are the top 10 tools every project manager should know.',
+        tags: ['Management', 'Guide'],
+        content: ``,
+        imageUrl: '/projectmanager_text_1-min.jpg',
+    },
+
+];
 
     const [latestBlogs, setLatestBlogs] = useState<Blog[]>([]); // Specify Blog[] type
 
