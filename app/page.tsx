@@ -431,9 +431,10 @@ export default function Home() {
                     ))}
                 </div>
                 <div className="text-center mt-8">
-                    <Link href="/blogs">
-                        <Button>View All Blogs</Button>
-                    </Link>                    </div>
+                   <Link href="https://decodewithhriday.vercel.app/" target="_blank" rel="noopener noreferrer">
+                       <Button>View All Blogs</Button>
+                   </Link>
+                   </div>
             </motion.div>
 
             </section>
