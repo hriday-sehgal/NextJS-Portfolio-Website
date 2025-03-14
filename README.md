@@ -2,11 +2,11 @@
 
 A personal portfolio showcasing my skills in Software Development and Product Management.
 
-**About the Project**
+**About the Project:**
 
 This portfolio website serves as my digital identity, highlighting my skills, experience, projects, and blogs. It is designed to provide a seamless user experience with a clean UI, dark mode support, and optimized performance.
 
-**Features - **
+**Features:**
 
 ✅ Dynamic Personal Introduction – Showcasing my role as a Software Developer, Technical Project Manager and a Product Manager.
 
@@ -26,7 +26,7 @@ This portfolio website serves as my digital identity, highlighting my skills, ex
 
 ✅ Dedicated About & Projects Pages – Separate sections for a detailed overview of my journey and work.
 
-**Tech Stack**
+**Tech Stack:**
 
 ✅Frontend: Next.js (React-based framework)
 
@@ -38,11 +38,11 @@ This portfolio website serves as my digital identity, highlighting my skills, ex
 
 ✅Deployment: Vercel for fast and scalable hosting
 
-**Live Demo**
+**Live Demo:**
 
 [Visit My Portfolio](https://hridaysehgal.vercel.app/) (Replace # with your actual live URL)
 
-**License & Copyright**
+**License & Copyright:**
 
 This project is proprietary.
 
@@ -50,7 +50,7 @@ All rights reserved © Hriday Sehgal.
 
 No part of this code may be copied, modified, distributed, or used without explicit permission.
 
-**Contact**
+**Contact:**
 
 Have a project in mind or want to connect? Reach out to me!
 
