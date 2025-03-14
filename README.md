@@ -28,15 +28,16 @@ This portfolio website serves as my digital identity, highlighting my skills, ex
 
 **Tech Stack:**
 
-- Frontend: Next.js (React-based framework)
+- Frontend: [Next.js ](https://nextjs.org/)(React-based framework)
 
-- Database: Supabase (PostgreSQL-based Storage)
+- Database: [Supabase ](https://supabase.com/)(PostgreSQL-based Storage)
 
-- Email Service: Resend (For sending emails through the contact form)
+- Email Service: [Resend ](https://resend.com/) (For sending emails through the contact form)
 
 - Styling: Tailwind CSS for a modern, responsive UI
 
-- Deployment: Vercel for fast and scalable hosting
+- Deployment: [Vercel ](https://vercel.com/)for fast and scalable hosting
+  
 
 **Live Demo:** [Visit My Portfolio](https://hridaysehgal.vercel.app/) 
 
