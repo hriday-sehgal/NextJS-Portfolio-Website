@@ -62,16 +62,16 @@ interface Blog {  // Define the Blog interface
 const allBlogs: Blog[] = [ // Use the Blog interface
     {
         id: 1,
-        title: 'Building Scalable Applications',
+        title: 'Will AI Replace Software Engineers? The Future of Coding with AI',
         date: '2024-03-15',
         author: 'Hriday Sehgal',
-        description: 'Learn the principles of building applications that can handle increasing workloads.',
-        tags: ['Technology', 'Architecture'],
+        description: 'AI tools like ChatGPT, DeepSeek, and V0 by Vercel are revolutionizing coding, but will they replace software engineers?',
+        tags: ['Technology', 'Software Development'],
         content: '', imageUrl: '/placeholder-image.jpg',
     },
     {
         id: 2,
-        title: 'Product Management 101',
+        title: 'Product Management 101: A Beginner’s Guide to Understanding PM',
         date: '2024-02-20',
         author: 'Hriday Sehgal',
         description: 'A beginner friendly introduction to the world of product management.',
@@ -81,10 +81,10 @@ const allBlogs: Blog[] = [ // Use the Blog interface
     },
     {
         id: 3,
-        title: 'Cloud Computing Fundamentals',
+        title: 'Top 10 Project Management Tools Every PM Should Know',
         date: '2024-01-10',
         author: 'Hriday Sehgal',
-        description: 'Explore the concepts of cloud and important best practices.',
+        description: 'Project management tools streamline collaboration, planning, and execution across various industries. Here are the top 10 tools every project manager should know.',
         tags: ['Management', 'Guide'],
         content: ``,
         imageUrl: '/placeholder-image.jpg',
@@ -154,12 +154,12 @@ export default function Home() {
             }
         },
         {
-            title: 'Word Counter App',
-            description: 'A word counting app which counts the number of words entered in a box',
-            tech: 'React.js, Javascript, CSS',
+            title: 'Next.js Blog Website',
+            description: 'A modern Next.js blog website with Premium membership, Sanity CMS, Supabase auth, and Razorpay payments. ',
+            tech: 'Next.js, Supabase, Tailwind CSS',
             links: {
-                github: 'https://github.com/hriday-sehgal/word-counter',
-                live: 'https://hriday-sehgal.github.io/Word-Counter-ReactJs-App/'
+                github: 'https://github.com/hriday-sehgal/decodewithhriday-blog',
+                live: 'https://decodewithhriday.vercel.app/'
             }
 
         },
@@ -395,7 +395,7 @@ export default function Home() {
                     {latestBlogs.map((blog: Blog) => ( // Use the Blog type here
 
                         <Card key={blog.id} className="h-full flex flex-col">
-                            <Link href="#"> {/* Changed to # */}
+                            <Link href="https://decodewithhriday.vercel.app/blogs">
                                 <CardHeader>
                                     <CardTitle>{blog.title}</CardTitle>
                                     <CardDescription>
