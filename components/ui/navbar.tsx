@@ -73,11 +73,12 @@ export default function Navbar() {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                             >
-                                <Button asChild variant="ghost" className={`${theme === 'dark' ? 'hover:bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-100'}`}>
-                                    <Link href={link.path}>
-                                        {link.name}
-                                    </Link>
-                                </Button>
+                               <Button asChild variant="ghost" className={`${theme === 'dark' ? 'hover:bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-100'}`}>
+    <Link href={link.path} target={link.target || '_self'} rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}>
+        {link.name}
+    </Link>
+</Button>
+
                             </motion.div>
                         ))}
                         {/* Dedicated Contact Button */}
