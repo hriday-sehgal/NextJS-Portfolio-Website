@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Hriday Sehgal – Portfolio Website**
 
-## Getting Started
+A personal portfolio showcasing my skills in Software Development and Product Management.
 
-First, run the development server:
+**About the Project**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio website serves as my digital identity, highlighting my skills, experience, projects, and blogs. It is designed to provide a seamless user experience with a clean UI, dark mode support, and optimized performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Features**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ Dynamic Personal Introduction – Showcasing my role as a Software Developer, Technical Project Manager and a Product Manager.
+✅ Skills Section – A comprehensive overview of my technical and managerial skill set.
+✅ Professional Experience – Detailed insights into my past roles, contributions, and expertise.
+✅ Projects Showcase – A curated collection of my best projects with descriptions and live/demo links.
+✅ Blogs – My latest blogs covering technology, product management, and software development.
+✅ Testimonials – Showcasing feedback and recommendations from industry professionals.
+✅ Contact Form with Email Integration – Users can directly reach out via email (powered by Resend).
+✅ Dark Mode Support – Provides a visually comfortable experience for all users.
+✅ Dedicated About & Projects Pages – Separate sections for a detailed overview of my journey and work.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Tech Stack**
 
-## Learn More
+✅Frontend: Next.js (React-based framework)
+✅Database: Supabase (PostgreSQL-based Storage)
+✅Email Service: Resend (For sending emails through the contact form)
+✅Styling: Tailwind CSS for a modern, responsive UI
+✅Deployment: Vercel for fast and scalable hosting
 
-To learn more about Next.js, take a look at the following resources:
+**Live Demo**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Visit My Portfolio](https://hridaysehgal.vercel.app/) (Replace # with your actual live URL)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**License & Copyright**
 
-## Deploy on Vercel
+This project is proprietary.
+All rights reserved © Hriday Sehgal.
+No part of this code may be copied, modified, distributed, or used without explicit permission.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Contact**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Have a project in mind or want to connect? Reach out to me!
+
+📧 Email: [hriday.career@gmail.com]
+🔗 LinkedIn: linkedin.com/in/hridaysehgal
