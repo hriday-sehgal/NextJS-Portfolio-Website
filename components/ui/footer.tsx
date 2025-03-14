@@ -49,12 +49,15 @@ export default function Footer() {
                             >
                                 Projects
                             </Link>
-                            <Link
-                                href="/blogs"
-                                className={`block ${theme === 'dark' ? 'text-gray-300 hover:text-white' : 'text-muted-foreground hover:text-primary'}`}
-                            >
-                                Blogs
-                            </Link>
+                           <Link
+                               href="https://decodewithhriday.vercel.app/blogs"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               className={`block ${theme === 'dark' ? 'text-gray-300 hover:text-white' : 'text-muted-foreground hover:text-primary'}`}
+                               >
+                                 Blogs
+                           </Link>
+
                            <Link  // Corrected to use Link
                                 href="#contact"  // Use '#' for same-page link
                                 onClick={scrollToContact}
