@@ -395,7 +395,7 @@ export default function Home() {
                     {latestBlogs.map((blog: Blog) => ( // Use the Blog type here
 
                         <Card key={blog.id} className="h-full flex flex-col">
-                            <Link href="https://decodewithhriday.vercel.app/blogs">
+                            <Link href="https://decodewithhriday.vercel.app/blogs" target="_blank" rel="noopener noreferrer">
                                 <CardHeader>
                                     <CardTitle>{blog.title}</CardTitle>
                                     <CardDescription>
