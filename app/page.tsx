@@ -23,9 +23,9 @@ const experiences = [
         company: 'dau Agency, Gurgaon',
         duration: 'Nov 2024 – March 2025',
         points: [
-            'Delivered 12+ technical projects for brands like Unibic, CDSL, Pizza Express',
-            'Managed project timelines with 85% task tracking accuracy',
-            'Led cross-functional teams resolving 75+ UI/UX issues'
+            'Managed 15+ technical projects across multiple clients, including Unibic, CDSL, and Pizza Express, ensuring timely delivery and alignment with business goals.',
+            'Optimized project workflows using ClickUp & Jira, increasing task tracking accuracy by 75% and reducing project delays by 20%.',
+            'Performed UI/UX and functional testing, identifying and resolving 80+ frontend issues, ensuring high-quality deployment.'
         ]
     },
     {
@@ -146,7 +146,7 @@ export default function Home() {
         },
         {
             title: 'RAG Chatbot',
-            description: 'A context-aware chatbot using Retrieval-Augmented Generation (RAG) architecture. It integrates MongoDB Atlas Vector search for document retrieval and Google’s Gemma-2b-it model for natural language response generation. ',
+            description: "A context-aware chatbot using RAG architecture, integrating MongoDB Atlas Vector search for retrieval and Google's Gemma-2b-it for response generation. ",
             tech: 'AngularJS, Python, Fast API, MongoDB',
             links: {
                 github: 'https://github.com/hriday-sehgal/RAG-Chatbot',
@@ -252,7 +252,7 @@ export default function Home() {
                             </Button>
                         </Link>
                         <Button variant="outline" asChild>
-                            <a href="https://drive.google.com/file/d/1ZzSDnKf3DNbndhiFDt3ocjrOnQLybDXh/view?usp=sharing" target='_blank' download>
+                            <a href="https://drive.google.com/file/d/1S7GHsW7FNh_ztvhr2OcCS29rbI9LoZTL/view?usp=sharing" target='_blank' download>
                                 Download Resume <FiDownload className="ml-2" />
                             </a>
                         </Button>
