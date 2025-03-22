@@ -221,9 +221,9 @@ export default function Home() {
                     >
                         <TypeAnimation
                             sequence={[
-                                'A Technical Project Manager',
-                                1500,
                                 'A Software Developer',
+                                1500,
+                                'A Technical Project Manager',
                                 1500,
                                 'A Product Manager',
                                 1500,
