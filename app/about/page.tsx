@@ -95,34 +95,34 @@ const education = [
 
   const experiences = [
     {
-      role: 'Technical Project Manager Intern',
-      company: 'dau Agency, Gurgaon',
-      duration: 'Nov 2024 – Present',
-      points: [
-        'Delivered 12+ technical projects for brands like Unibic, CDSL, Pizza Express',
-        'Managed project timelines with 85% task tracking accuracy',
-        'Led cross-functional teams resolving 75+ UI/UX issues'
-      ]
+        role: 'Technical Project Manager Intern',
+        company: 'dau Agency, Gurgaon',
+        duration: 'Nov 2024 – March 2025',
+        points: [
+            'Managed 15+ technical projects across multiple clients, including Unibic, CDSL, and Pizza Express, ensuring timely delivery and alignment with business goals.',
+            'Optimized project workflows using ClickUp & Jira, increasing task tracking accuracy by 75% and reducing project delays by 20%.',
+            'Performed UI/UX and functional testing, identifying and resolving 80+ frontend issues, ensuring high-quality deployment.'
+        ]
     },
     {
-      role: 'Software Intern',
-      company: 'KareXpert Technologies',
-      duration: 'Aug 2024 – Oct 2024',
-      points: [
-        'Developed a RAG architecture based context aware chatbot using MongoDB Atlas & Google Gemma Model',
-        'Used FAST API and optimized API endpoints reducing latency by 30%'
-      ]
+        role: 'Software Intern',
+        company: 'KareXpert Technologies',
+        duration: 'Aug 2024 – Oct 2024',
+        points: [
+            'Developed a RAG architecture based context aware chatbot using MongoDB Atlas & Google Gemma Model',
+            'Used FAST API and optimized API endpoints reducing latency by 30%'
+        ]
     },
     {
-      role: 'MERN Full Stack Developer Intern',
-      company: 'Ethnus Consultancy Services',
-      duration: 'Aug 2023 - Nov 2023',
-      points: [
-        'Developed 10+ mini-projects including Word Counter app, Calculator app',
-        'Built a full-stack Bidding platform with real time bidding updates'
-      ]
+        role: 'MERN Full Stack Developer Intern',
+        company: 'Ethnus Consultancy Services',
+        duration: 'Aug 2023 - Nov 2023',
+        points: [
+            'Developed 10+ mini-projects including Word Counter app, Calculator app',
+            'Built a full-stack Bidding platform with real time bidding updates'
+        ]
     }
-  ];
+];
 
   const extracurricular = {
     role: 'Core Member in the Event Management Team',
