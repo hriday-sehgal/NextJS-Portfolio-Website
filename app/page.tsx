@@ -21,7 +21,7 @@ const experiences = [
     {
         role: 'Technical Project Manager Intern',
         company: 'dau Agency, Gurgaon',
-        duration: 'Nov 2024 – Present',
+        duration: 'Nov 2024 – March 2025',
         points: [
             'Delivered 12+ technical projects for brands like Unibic, CDSL, Pizza Express',
             'Managed project timelines with 85% task tracking accuracy',
