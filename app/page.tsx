@@ -137,7 +137,7 @@ export default function Home() {
     const projects = [
         {
             title: 'BidBot Auction Platform',
-            description: 'Full-stack auction platform with real-time bidding',
+            description: 'Built an online auction platform with real-time product listings, automated bidding, and timed auction closures.',
             tech: 'React.js, Node.js, MongoDB, Express.js',
             links: {
                 github: 'https://github.com/hriday-sehgal/BidBot-Online-Auction-System-Project-Frontend',
