@@ -93,7 +93,7 @@ const allBlogs: Blog[] = [
   },
   {
     id: 2,
-    title: "Product Management 101: A Beginner&apos;s Guide to Understanding PM",
+    title: "Product Management 101: A Beginner's Guide to Understanding PM",
     description:
       "Learn the fundamentals of product management, from ideation to execution, and how to become an effective product manager.",
     imageUrl: "/Intro to PM-min.jpg",
@@ -313,7 +313,7 @@ export default function Home() {
     {
       name: "Sanjay Kumar Prajapati",
       role: "GM - Software Development, KareXpert",
-      text: "I&apos;m thrilled to see the value you gained from working on such an exciting project with us! Your passion, dedication, and creativity truly elevated the team&apos;s efforts. You brought an analytical and solution-oriented mindset, which was crucial in tackling new challenges and adapting swiftly. Your contribution has been nothing short of impressive.",
+      text: "I'm thrilled to see the value you gained from working on such an exciting project with us! Your passion, dedication, and creativity truly elevated the team's efforts. You brought an analytical and solution-oriented mindset, which was crucial in tackling new challenges and adapting swiftly. Your contribution has been nothing short of impressive.",
     },
     {
       name: "Gaurav Hasija",
@@ -328,7 +328,7 @@ export default function Home() {
     {
       name: "Amartya Dev",
       role: "Senior UI/UX Designer, dau Agency",
-      text: "Your assistance over the past two months has been invaluable, whether it&apos;s finding content or making minor tweaks—you never say no. I truly admire your work ethic and commitment- towards learning, towards growing. I see you go above & beyond your duties when you feel you can help others out. ",
+      text: "Your assistance over the past two months has been invaluable, whether it's finding content or making minor tweaks—you never say no. I truly admire your work ethic and commitment- towards learning, towards growing. I see you go above & beyond your duties when you feel you can help others out. ",
     },
   ];
 
