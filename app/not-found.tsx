@@ -23,7 +23,8 @@ export default function NotFound() {
             Page Not Found
           </h2>
           <p className="text-gray-600 mb-8 max-w-md mx-auto">
-            Oops! The page you're looking for doesn't exist or has been moved.
+            Oops! The page you&apos;re looking for doesn&apos;t exist or has
+            been moved.
           </p>
           <Link href="/">
             <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white">

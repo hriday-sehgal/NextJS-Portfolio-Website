@@ -6,20 +6,16 @@ import {
   Card,
   CardHeader,
   CardTitle,
-  CardDescription,
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
 import {
   FiGithub,
   FiExternalLink,
-  FiArrowRight,
   FiLinkedin,
   FiMail,
   FiMapPin,
-  FiPhone,
 } from "react-icons/fi";
-import Image from "next/image";
 import ContactForm from "@/components/ui/contact-form";
 import Link from "next/link";
 

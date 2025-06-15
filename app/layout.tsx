@@ -6,7 +6,7 @@ import "./globals.css";
 import Navbar from "@/components/ui/navbar";
 // import Footer from "@/components/ui/footer";
 import { Toaster } from "sonner";
-import { metadata as siteMetadata } from "./metadata";
+// import { metadata as siteMetadata } from "./metadata";
 
 const inter = Inter({ subsets: ["latin"] });
 

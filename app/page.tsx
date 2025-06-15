@@ -2,53 +2,24 @@
 "use client";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import {
   Card,
   CardHeader,
   CardTitle,
-  CardDescription,
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
+
 import {
-  SiReact,
-  SiPython,
-  SiJira,
-  SiMongodb,
-  SiNodedotjs,
-  SiJavascript,
-  SiHtml5,
-  SiCss3,
-  SiExpress,
-  SiNextdotjs,
-  SiGoogleanalytics,
-  SiPostman,
-  SiGit,
-  SiGithub,
-  SiTailwindcss,
-  SiSupabase,
-  SiFastapi,
-} from "react-icons/si";
-import {
-  FiDownload,
   FiGithub,
   FiExternalLink,
-  FiArrowRight,
-  FiBriefcase,
-  FiLinkedin,
   FiMail,
   FiMapPin,
-  FiPhone,
+  FiArrowRight,
+  FiLinkedin,
 } from "react-icons/fi";
-import { FaBrain, FaProjectDiagram } from "react-icons/fa"; // Leadership, Project Mgmt, Communication
-import { BsGraphUp, BsClipboardData } from "react-icons/bs"; // Strategy, Product Management
-import { MdOutlineEventAvailable } from "react-icons/md"; //Event Management
-import { BiUserCheck } from "react-icons/bi"; //Stakeholder Management
-import { TbBrandFigma, TbBrandSlack } from "react-icons/tb";
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import ContactForm from "@/components/ui/contact-form";
 import Script from "next/script";
@@ -122,7 +93,7 @@ const allBlogs: Blog[] = [
   },
   {
     id: 2,
-    title: "Product Management 101: A Beginner's Guide to Understanding PM",
+    title: "Product Management 101: A Beginner&apos;s Guide to Understanding PM",
     description:
       "Learn the fundamentals of product management, from ideation to execution, and how to become an effective product manager.",
     imageUrl: "/Intro to PM-min.jpg",
@@ -342,7 +313,7 @@ export default function Home() {
     {
       name: "Sanjay Kumar Prajapati",
       role: "GM - Software Development, KareXpert",
-      text: "I'm thrilled to see the value you gained from working on such an exciting project with us! Your passion, dedication, and creativity truly elevated the team's efforts. You brought an analytical and solution-oriented mindset, which was crucial in tackling new challenges and adapting swiftly. Your contribution has been nothing short of impressive.",
+      text: "I&apos;m thrilled to see the value you gained from working on such an exciting project with us! Your passion, dedication, and creativity truly elevated the team&apos;s efforts. You brought an analytical and solution-oriented mindset, which was crucial in tackling new challenges and adapting swiftly. Your contribution has been nothing short of impressive.",
     },
     {
       name: "Gaurav Hasija",
@@ -357,7 +328,7 @@ export default function Home() {
     {
       name: "Amartya Dev",
       role: "Senior UI/UX Designer, dau Agency",
-      text: "Your assistance over the past two months has been invaluable, whether it's finding content or making minor tweaks—you never say no. I truly admire your work ethic and commitment- towards learning, towards growing. I see you go above & beyond your duties when you feel you can help others out. ",
+      text: "Your assistance over the past two months has been invaluable, whether it&apos;s finding content or making minor tweaks—you never say no. I truly admire your work ethic and commitment- towards learning, towards growing. I see you go above & beyond your duties when you feel you can help others out. ",
     },
   ];
 
@@ -380,7 +351,7 @@ export default function Home() {
               className="text-center"
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-                Hi, I'm Hriday
+                Hi, I&apos;m Hriday
               </h1>
               <motion.div
                 initial={{ opacity: 0 }}
@@ -604,9 +575,9 @@ export default function Home() {
                           <CardTitle className="text-xl font-bold text-gray-900">
                             {exp.role}
                           </CardTitle>
-                          <CardDescription className="text-gray-600">
+                          <CardContent className="text-gray-600">
                             {exp.company}
-                          </CardDescription>
+                          </CardContent>
                         </div>
                         <span className="text-sm text-gray-500">
                           {exp.duration}
@@ -852,7 +823,7 @@ export default function Home() {
                       </div>
                     </div>
                     <p className="text-sm md:text-base text-gray-600 italic leading-relaxed">
-                      "{testimonials[currentIndex].text}"
+                      &quot;{testimonials[currentIndex].text}&quot;
                     </p>
                   </CardContent>
                 </Card>

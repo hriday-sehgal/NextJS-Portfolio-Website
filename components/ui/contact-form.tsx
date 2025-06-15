@@ -17,7 +17,6 @@ import {
   FiUser,
   FiMessageSquare,
 } from "react-icons/fi";
-import { useTheme } from "next-themes";
 
 export default function ContactForm() {
   const {
@@ -28,7 +27,6 @@ export default function ContactForm() {
   } = useForm();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showForm, setShowForm] = useState(true);
-  const { theme } = useTheme();
 
   const onSubmit = async (data: unknown) => {
     setIsSubmitting(true);
@@ -69,11 +67,11 @@ export default function ContactForm() {
         className="text-center mb-8"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
         <p className="text-gray-600">
-          Have a project in mind or want to discuss opportunities? I'd love to
-          hear from you!
+          Have a project in mind or want to discuss opportunities? I&apos;d love
+          to hear from you!
         </p>
       </motion.div>
 
@@ -217,7 +215,7 @@ export default function ContactForm() {
             Message Sent!
           </h3>
           <p className="text-gray-600">
-            Thank you for reaching out. I'll get back to you as soon as
+            Thank you for reaching out. I&apos;ll get back to you as soon as
             possible.
           </p>
         </motion.div>
