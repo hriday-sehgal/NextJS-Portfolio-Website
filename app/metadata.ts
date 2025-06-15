@@ -1,0 +1,102 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://hridaysehgal.vercel.app"),
+  title: {
+    default: "Hriday Sehgal | Software Developer",
+    template: "%s | Hriday Sehgal",
+  },
+  description:
+    "Software Developer, Technical Project Manager, and Product Manager with expertise in full-stack development, project management, and technical SEO.",
+  keywords: [
+    "Software Developer",
+    "Technical Project Manager",
+    "Product Manager",
+    "Full-stack Developer",
+    "Technical SEO",
+    "Project Management",
+    "Web Development",
+    "Next.js",
+    "React",
+    "Frontend",
+    "Backend",
+    "Full Stack",
+    "Technical SEO",
+    "Web Development",
+    "Node.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Git",
+    "GitHub",
+    "Express.js",
+    "Sanity",
+    "Supabase",
+    "CMS",
+    "SEO",
+    "Health Informatics",
+    "Healthcare",
+    "Healthcare IT",
+    "Healthcare Technology",
+    "Healthcare Information Technology",
+    "Healthcare Information Systems",
+  ],
+  authors: [{ name: "Hriday Sehgal" }],
+  creator: "Hriday Sehgal",
+  publisher: "Hriday Sehgal",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://hridaysehgal.vercel.app",
+    siteName: "Hriday Sehgal Portfolio",
+    title: "Hriday Sehgal | Software Developer",
+    description:
+      "Software Developer, Technical Project Manager, and Product Manager with expertise in full-stack development, project management, and technical SEO.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hriday Sehgal Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hriday Sehgal | Software Developer",
+    description:
+      "Software Developer, Technical Project Manager, and Product Manager with expertise in full-stack development, project management, and technical SEO.",
+    images: ["/og-image.jpg"],
+    // creator: "@hridaysehgal",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+//   verification: {
+//     google: "your-google-site-verification",
+//     yandex: "your-yandex-verification",
+//     yahoo: "your-yahoo-verification",
+//   },
+  alternates: {
+    canonical: "https://hridaysehgal.vercel.app",
+    languages: {
+      "en-US": "https://hridaysehgal.vercel.app",
+    },
+  },
+};

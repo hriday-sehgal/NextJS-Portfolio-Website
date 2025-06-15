@@ -1,43 +1,73 @@
-# Hriday Sehgal – Portfolio Website
+# Hriday Sehgal's Portfolio Website
 
-A personal portfolio showcasing my skills in Software Development and Product Management.
+A modern, responsive portfolio website built with Next.js 15, showcasing my projects, skills, and experience in software development.
 
-## About the Project:
+## Features
 
-This portfolio website serves as my digital identity, highlighting my skills, experience, projects, and blogs. It is designed to provide a seamless user experience with a clean UI, dark mode support, and optimized performance.
+- **Modern Tech Stack**: Built with Next.js 15, TypeScript, and Tailwind CSS
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Smooth Animations**: Enhanced with Framer Motion for smooth transitions
+- **SEO Optimized**: Built-in SEO features with metadata and OpenGraph tags
+- **Performance**: Optimized for speed and performance
+- **Contact Form**: Interactive contact form with email integration
 
-## Features:
+## Tech Stack
 
-- Dynamic Personal Introduction – Showcasing my role as a Software Developer, Technical Project Manager and a Product Manager.
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn/UI
+- **Animations**: Framer Motion
+- **Deployment**: Vercel
+- **SEO**: Next.js Metadata API
+- **Email Integration**: Resend API
+- **Database**: Supabase
 
--  Skills Section – A comprehensive overview of my technical and managerial skill set.
 
-- Professional Experience – Detailed insights into my past roles, contributions, and expertise.
+## Features in Detail
 
-- Projects Showcase – A curated collection of my best projects with descriptions and live/demo links.
+### Home Page
 
-- Blogs – My latest blogs covering technology, product management, and software development.
+- Hero section with animated introduction
+- Skills showcase with interactive cards
+- Project highlights with detailed descriptions
+- Blog section with latest articles
+- Contact form with email integration
 
-- Testimonials – Showcasing feedback and recommendations from industry professionals.
+### Projects Page
 
-- Contact Form with Email Integration – Users can directly reach out via email (powered by Resend).
+- Detailed project showcase
+- Interactive project cards
+- GitHub and live demo links
+- Technology stack highlights
+- Project achievements and features
 
-- Dark Mode Support – Provides a visually comfortable experience for all users.
 
-- Dedicated About & Projects Pages – Separate sections for a detailed overview of my journey and work.
+## Design Features
 
-## Tech Stack:
+- **Color Scheme**: Modern blue and purple gradients
+- **Typography**: Clean and readable fonts
+- **Animations**: Smooth transitions and hover effects
+- **Layout**: Responsive grid system
+- **Components**: Reusable UI components
+- **Accessibility**: WCAG compliant
 
-- Frontend: [Next.js ](https://nextjs.org/)(React-based framework)
+## Responsive Design
 
-- Database: [Supabase ](https://supabase.com/)(PostgreSQL-based Storage)
+- Mobile-first approach
+- Breakpoints for all device sizes
+- Optimized images and assets
+- Touch-friendly interactions
+- Responsive typography
 
-- Email Service: [Resend ](https://resend.com/) (For sending emails through the contact form)
+## SEO Features
 
-- Styling: Tailwind CSS for a modern, responsive UI
-
-- Deployment: [Vercel ](https://vercel.com/)for fast and scalable hosting
-  
+- Meta tags and descriptions
+- OpenGraph integration
+- Twitter cards
+- Sitemap generation
+- Robots.txt configuration
+- Structured data
 
 ## Live Demo: 
 
@@ -51,6 +81,7 @@ This project is proprietary. All rights reserved © Hriday Sehgal. No part of th
 
 Have a project in mind or want to connect? Reach out to me!
 
-📧 Email: hriday.career@gmail.com
+Email: hriday.career@gmail.com
 
-🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/hridaysehgal/)
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/hridaysehgal/)
+
