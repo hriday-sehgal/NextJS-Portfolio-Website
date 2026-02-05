@@ -26,9 +26,20 @@ import Script from "next/script";
 
 const experiences = [
   {
+    role: "AI Engineer",
+    company: "Tulu Health (Remote)",
+    duration: "July 2025 – Present",
+    points: [
+      "Designed and scaled AI agents (WhatsApp & Web) for 10+ healthcare clients, handling 1,000s of monthly conversations. Owned end-to-end LLM orchestration, prompt engineering, and multi-language support.",
+      "Architected a Hybrid RAG system using Python, FastAPI, and PGVector to process 1000+ documents. Improved retrieval accuracy and reduced hallucinations by ~70-80% through custom ingestion pipelines and tuning.",
+      "Built core backend and analytics pipelines, automating 30+ monthly reports for leads and bookings. Optimized scripts for production performance and automated cron-based execution.",
+      "Led product delivery on AWS EC2, managing database migrations and resolving critical issues across full-stack integrations. Shipped rapid improvements based on real-time client feedback.",
+    ],
+  },
+  {
     role: "Frontend Developer Intern",
     company: "RegisterKaro, Gurgaon",
-    duration: "Apr 2025 – Present",
+    duration: "April 2025 – July 2025",
     points: [
       "Developed and optimized responsive website pages using Next.js and SCSS, improving UI consistency and cross-device user experience.",
       "Implemented technical SEO strategies including state-wise sitemaps, canonical tags, and meta tags, resulting in a 20% improvement in search engine visibility and crawlability.",
@@ -226,6 +237,17 @@ export default function Home() {
         ],
       },
       {
+        category: "AI Engineering",
+        items: [
+          "LLMs & Agents",
+          "RAG Systems",
+          "Prompt Engineering",
+          "Python",
+          "FastAPI",
+          "Vector DBs"
+        ],
+      },
+      {
         category: "Tools & Others",
         items: [
           "Git/GitHub",
@@ -363,12 +385,10 @@ export default function Home() {
                   sequence={[
                     "A Software Developer",
                     1500,
-                    "A Technical Project Manager",
+                    "An AI Engineer",
                     1500,
                     "A Full Stack Developer",
-                    1500,
-                    "A Product Manager",
-                    1500,
+                    1500
                   ]}
                   wrapper="span"
                   speed={50}
@@ -400,7 +420,7 @@ export default function Home() {
                   </Button>
                 </Link>
                 <Link
-                  href="https://drive.google.com/file/d/1lExlkrHWi6G2_emKSkZ0AWfmpVv0rW3U/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1V1XK73z5H3wGK0N9UgM4yDXVgojQfV-5/view?usp=sharing"
                   target="_blank"
                 >
                   <Button
@@ -575,9 +595,9 @@ export default function Home() {
                           <CardTitle className="text-xl font-bold text-gray-900">
                             {exp.role}
                           </CardTitle>
-                          <CardContent className="text-gray-600">
+                          <div className="text-gray-600">
                             {exp.company}
-                          </CardContent>
+                          </div>
                         </div>
                         <span className="text-sm text-gray-500">
                           {exp.duration}
