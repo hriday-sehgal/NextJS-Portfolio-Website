@@ -220,7 +220,7 @@ export default function ProjectsPage() {
               </p>
               <div className="flex gap-4">
                 <Link
-                  href="https://www.linkedin.com/in/hriday-sehgal/"
+                  href="https://www.linkedin.com/in/hridaysehgal/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

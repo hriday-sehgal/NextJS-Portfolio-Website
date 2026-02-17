@@ -147,7 +147,7 @@ const jsonLd = {
   description:
     "Software Developer, Technical Project Manager, and Product Manager with expertise in full-stack development, project management, and technical SEO.",
   sameAs: [
-    "https://www.linkedin.com/in/hriday-sehgal/",
+    "https://www.linkedin.com/in/hridaysehgal/",
     "https://github.com/hriday-sehgal",
   ],
   knowsAbout: [
@@ -902,7 +902,7 @@ export default function Home() {
                 </p>
                 <div className="flex gap-4">
                   <Link
-                    href="https://www.linkedin.com/in/hriday-sehgal/"
+                    href="https://www.linkedin.com/in/hridaysehgal/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
